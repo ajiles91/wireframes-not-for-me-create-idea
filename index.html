@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <title>Idea Input</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+      <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+    <nav role="navigation"><button>Return to Idea List</button></nav>
+    <main role="main">
+
+        <header>
+            <h1>New Idea</h1>
+        </header>
+
+      <section>
+            <form id="submit-idea">
+
+                <div class="form-section">
+                    <label for="idea-name">Idea Name</label>
+                    <input type="text" name="idea-name" required>
+                </div>
+
+                <div class="form-section">
+                    <label for="idea-summary">Idea Summary</label>
+                    <textarea name="idea-summary" rows="15"   required></textarea>
+                </div>
+
+                <div class="contact-info-container" class="form-section">
+                    <label for="idea-name">Contact Info</label>
+                    <input type="text" name="contact-info" required>
+                </div>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+      </section>
+    </main>
+  </body>
+</html>
